@@ -1,20 +1,28 @@
+forked from jongallant/sfCartPlugin, thanks for all the work!
+
 # sfCart Plugin (for symfony 1.4) #
 
-The `sfCartPlugin` is a symfony plugin that provides a e-commerce solution to your symfony projects.
-The plugin provides a frontend cart system, and a backend administration system.  
+The `sfCartPlugin` is a symfony plugin that provides a shopping cart solution to your symfony projects.
+The plugin provides a frontend cart system, and a backend administration system. 
 
 ## Features ##
 
   * Cart system
   * Simple store administration 
-  * UPS shipping calculator (United States)
-  * Purolator shipping calculator (Canada)
+  * example UPS shipping calculator (United States)
+  * example Purolator shipping calculator (Canada)
   * Paypal Standard Checkout
   * NestedSet categories
   * Coupon codes
   * Custom tax rates
   * Much more
 
+TODO  
+  * seperate into MVC
+  * 100% testcoverage
+  * Optional NestedSet categories
+  * i10n / i18n
+  * move all config to yml
   
 ## Installation ##
 
@@ -91,7 +99,8 @@ The plugin provides a frontend cart system, and a backend administration system.
  
 ## Code Changes ##
 
-Although a lot of work has already been put into this plugin, a lot more needs to be done.  There are plans to move configurable items into the "Settings" section in the future.
+Although a lot of work has already been put into this plugin, a lot more needs to be done. 
+There are plans to move configurable items into the "Settings" section in the future.
 For the time being, you will need to be able to read and change code in order to get the most out of this plugin. 
 Here are the critical code lines that you need to be aware of:
 
